@@ -3,5 +3,5 @@
 
 
 <h1>------REQUIREMENTS------</h1>
-<h2>--Moduls-- <h4>youtube_dl # a modul to get videos's all formats on youtube </h4></h2>
+<h2>--Modul-- <h4>youtube_dl # a modul to get videos's all formats on youtube </h4></h2>
 
