@@ -1,0 +1,14 @@
+h1 {
+  font-size: 1.3rem;
+}
+#navbar .icon {
+  padding: 1rem 1rem;
+  font-size: 2rem;
+}
+#navbar ul li {
+  margin: 2vh 1vw;
+}
+#navbar ul li a {
+  margin: 0 auto;
+  padding: 0.6rem 0.8rem;
+}

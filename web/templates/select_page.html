@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'index.html' %} {% block title %}
+<title>Download Anythink - Youtube Downloader - READY !</title>
+{% endblock title %} {% block main %}
+<div class="container-body">
+  <div id="mainbar-youtube">
+    <h1 class="white">Avaible Formats For Your Video</h1>
+    <div class="avaible-class">
+      {% for format in alldata[0] %}
+      <a class="avaible-button" href="{{alldata[0][format]['url']}}"
+        >{{alldata[0][format]["name"]}}
+      </a>
+      {% endfor %}
+    </div>
+  <iframe
+    width="100%"
+    style="height: 75vh; "
+    src="https://www.youtube.com/embed/{{alldata[1]}}"
+  >
+  </iframe>
+  </div>
+</div>
+{% endblock main %}

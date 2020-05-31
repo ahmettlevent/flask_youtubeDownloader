@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h5 {
+  font-size: 3rem;
+}
+html {
+  font-family: "Oswald", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  background-color: #6e0a03;
+}
+#navbar {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 2%;
+  min-height: 8.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#navbar .icon {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 1rem 4rem;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+#navbar ul li {
+  margin: 2vh 2vw;
+}
+#navbar ul li a {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 0px;
+  background-color: #2f5f3d;
+  padding: 0.8rem 2.4rem;
+  color: rgb(243, 243, 243);
+  transition: padding .1s, border-radius 0.2s, background-color 0.5s;
+}
+#navbar ul li a:hover {
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background-color: #2f5f3dde;
+}
+
+#mainbar-youtube {
+  background-color: rgb(112, 0, 0);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem auto;
+  overflow: hidden;
+  border: solid wheat;
+  border-radius: 9px;
+  border-width: 2px;
+  min-height: 9rem;
+  max-width: 95%;
+}
+.urlsection form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.avaible-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.mainbar-youtube iframe {
+  align-self: center;
+  border: solid black ;
+  border-width: 5px;
+  border-radius: 6px;
+}
+.avaible-button {
+  align-items: center;
+  border-radius: 6px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: border-radius 0.3s, background-color 0.2s;
+}
+.avaible-button:hover {
+  border-radius: 15px;
+  background-color: #6e0a03;
+}

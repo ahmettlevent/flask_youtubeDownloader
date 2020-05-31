@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block title %}
+    <title>Download Anythink</title>
+    {% endblock title %}
+    <!--GoogleFonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!--Global CSS-->
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width:768px)" href="/css/tablet.css" />
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width:500px)" href="/css/mobile.css" />
+    {% endblock head %}
+  </head>
+  <body class="bg-body">
+    <header class="">
+      {% include 'includes/navbar.html' %}
+    </header>
+    <main>
+        {% block main %}
+        
+        {% endblock main %}
+    </main>
+  </body>
+</html>

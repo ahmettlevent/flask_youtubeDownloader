@@ -1,0 +1,53 @@
+/* Colors */
+.dark-red {
+  color: rgb(134, 0, 0);
+}
+.light-red {
+  color: rgb(221, 6, 6);
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-medium-white {
+  background-color: rgb(192, 192, 192);
+}
+.bg-body {
+  background-color: rgb(0, 45, 82);
+}
+
+input[type="text"] {
+  border: 0px;
+  border-radius: 4px;
+  height: 5vh;
+  width: 60vw;
+  transition: border-radius 0.1s;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+  outline: none;
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+.registerbtn {
+  border-radius: 6px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.registerbtn:focus,
+.registerbtn:hover {
+  outline: none;
+  background-color: #2b682e;
+}

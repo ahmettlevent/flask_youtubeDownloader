@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% extends 'index.html' %} {% block title %}
+<title>Download Anythink - Youtube Downloader</title>
+{% endblock title %} {% block main %}
+<div class="container-body">
+  <div id="mainbar-youtube">
+    <h1 class="white">
+      Download Your Youtube Videos Mp3 or Mp4 For Free
+    </h1>
+    <div class="urlsection">
+      <form action="" method="post">
+        <label for="youtube-link" class="heading-small white">
+          Your Youtube Link</label
+        >
+        <input
+          type="text"
+          placeholder="https://www.youtube.com/watch?v=Kegz3V6ZUKc"
+          name="youtube-link"
+          id="youtube-link"
+        />
+        <button type="submit" class="registerbtn">SEARCH</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock main %}
