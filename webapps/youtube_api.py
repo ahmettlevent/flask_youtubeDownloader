@@ -9,8 +9,8 @@ def search_video(url, output='audio', quiet=False):
     avaible={}
     avaible["bestaudio"]={"name":"Best AUDIO","url":"/download/{}/mp3-bestaudio".format(url)}
     avaible["audio"]={"name":"Normal AUDIO","url":"/download/{}/mp3-audio".format(url)}
-    #avaible["bestvideo"]={"name":"Best VIDEO","url":"/download/{}/mp4-bestvideo+bestaudio".format(url)}
-    #avaible["video"]={"name":"Normal VIDEO","url":"/download/{}/mp4-best".format(url)}
+    avaible["bestvideo"]={"name":"Best VIDEO","url":"/download/{}/mp4-bestvideo+bestaudio".format(url)}
+    avaible["video"]={"name":"Normal VIDEO","url":"/download/{}/mp4-best".format(url)}
 
     return avaible
 
