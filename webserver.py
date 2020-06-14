@@ -55,6 +55,7 @@ def cleaner():
     import os
     for i in downloadedfiles:
         os.remove(i)
+        
 atexit.register(cleaner)
 
 if __name__=="__main__":
