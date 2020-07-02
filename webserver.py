@@ -49,7 +49,8 @@ def youtubeDownload(url,type,id):
     else:
         file = youtube_api.download_source(url,type,id)
         downloadedfiles.append(file)
-        return send_file(file,as_attachment=True)
+        return render_template("youtubepage.html")
+        #return send_file(file,as_attachment=True)
 
 def cleaner():
     import os
